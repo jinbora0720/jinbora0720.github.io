@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-  </url>
-  
-  <url>
     <loc>/authors/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>/author/nelson-bighetti/</loc>
+    <loc>/author/bora-jin/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
   </url>
   
   <url>
