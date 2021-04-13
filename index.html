@@ -805,7 +805,7 @@
     
     <h1>About Me</h1>
 
-    <p>I&rsquo;m a 3rd year PhD student studying statistics at Duke university under the supervision of Amy H. Herring and David Dunson. I have interests in statistical applications in the environmental and human health sciences. I develop Bayesian methods that provide better interpretation in relation to the reality along with uncertainty quantification. My current work focuses on chemical toxicity, pollutant effects on diseases, and spatial prevalence of hazardous chemicals.</p>
+    <p>I&rsquo;m a 3rd year PhD candidate in the Statistical Science department at Duke University under the supervision of Amy H. Herring and David B. Dunson. My research interests include Bayesian hierarchical methods and spatial/spatiotemporal modelling, with a focus on environmental applications. I care about computational efficiency, model flexibility, and interpretability. My current projects involve various hazardous substances such as toxic chemicals, air pollutants, and water pollutants.</p>
 
 
     <div class="row">
@@ -963,8 +963,8 @@
     <div class="col py-2">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Effects of Short-term Air Pollution on COVID-19</h4>
-          <h4 class="card-title exp-company text-muted my-0">with David Dunson</h4>
+          <h4 class="card-title exp-title text-muted mt-0 mb-1">Bag of DAGs: Flexible &amp; Scalable Modelling of Spatiotemporal Dependence</h4>
+          <h4 class="card-title exp-company text-muted my-0">with Michele Peruzzi, James E. Johndrow, and David B. Dunson</h4>
           <div class="text-muted exp-meta">
             Sep 2020 –
             
@@ -974,13 +974,16 @@
           </div>
           <div class="card-text"><ul>
 <li>
-<p>Build a Bayesian model to predict effects of PM2.5 with and without wildfires.</p>
+<p>Propose a computationally efficient approach to construct a well-defined spatial Gaussian process (GP) with the nonstationary covariance using multiple yet simple directed acyclic graphs (DAGs), which leads to computational efficiency, flexibility, and interpretability in point-referenced geostatistical models.</p>
 </li>
 <li>
-<p>Include information about dynamics of wildfires and their progression into a Gaussian process (GP) using multiple directed acyclic graphs (DAG).</p>
+<p>Develop “bag of DAGs,” each of which is chosen to represent a different possible dependence structure, to induce nonstationarity.</p>
 </li>
 <li>
-<p>Investigate the short-term effect of PM2.5 on respiratory diseases including COVID-19.</p>
+<p>Analyze spatiotemporal variability of fine particulate matter (PM2.5) in California in which a DAG represents a prevailing wind direction causing some associated covariance in the pollutants.</p>
+</li>
+<li>
+<p>Study associations between air pollution and hospital visits related to COVID-19.</p>
 </li>
 </ul>
 </div>
@@ -1008,8 +1011,8 @@
     <div class="col py-2">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Prediction for Per- and polyfluoroalkyl Substances in relation to Stream Networks</h4>
-          <h4 class="card-title exp-company text-muted my-0">with Amy H. Herring</h4>
+          <h4 class="card-title exp-title text-muted mt-0 mb-1">Scalable Gaussian Processes on Physically Constrained Domains</h4>
+          <h4 class="card-title exp-company text-muted my-0">with Amy H. Herring and David B. Dunson</h4>
           <div class="text-muted exp-meta">
             Sep 2020 –
             
@@ -1019,13 +1022,16 @@
           </div>
           <div class="card-text"><ul>
 <li>
-<p>Develop a predictive spatial model for per- and polyfluoroalkyl substances (PFAS) in public water system (PWS) along with uncertainty quantification.</p>
+<p>Motivated by groundwater contamination in which pollutant measurements are collected and meaningful only in a constrained domain, i.e., groundwater bodies with intrinsic geometry.</p>
 </li>
 <li>
-<p>Identify upstream and downstream information of PWSs in relation to the nearest stream network and construct a corresponding DAG.</p>
+<p>Develop the Barrier Overlap-Removal Acyclic Directed Graph GP (BORA-GP), a scalable GP method that incorporates the constrained domain via sparsity-inducing DAGs.</p>
 </li>
 <li>
-<p>Fit a multivariate GP using the DAG, incorporating external factors such as known sources or known relationship between PFAS compounds.</p>
+<p>Enable characterization of dependence in constrained domains by removing an edge in a DAG if a linear path between two points overlaps physical barriers.</p>
+</li>
+<li>
+<p>Analyze water pollutant measurements in California collected through the Groundwater Ambient Monitoring and Assessment Program (GAMA).</p>
 </li>
 </ul>
 </div>
