@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michele Peruzzi | Bora Jin</title>
+    <link>/author/michele-peruzzi/</link>
+      <atom:link href="/author/michele-peruzzi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Michele Peruzzi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:06 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Michele Peruzzi</title>
+      <link>/author/michele-peruzzi/</link>
+    </image>
+    
+    <item>
+      <title>Bag of DAGs: Inferring Directional Dependence in Spatiotemporal Processes</title>
+      <link>/project/bags/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:06 -0500</pubDate>
+      <guid>/project/bags/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;R package &lt;a href=&#34;https://github.com/jinbora0720/bags&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bags&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/media/BAGs/example.html&#34;&gt;Simple example demonstration&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Propose a class of nonstationary processes that characterize varying directional associations in space and time for point-referenced data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Place a prior over possible directional edges within sparse directed acyclic graphs (DAGs), accounting for uncertainty in directional correlation patterns across a domain.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The resulting Bag of DAGs processes (BAGs) lead to interpretable nonstationarity and scalability for large data due to sparsity of DAGs in the bag.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analyze spatiotemporal variability of fine particulate matter (PM2.5) in California, US, in which a directed edge represents a prevailing wind direction causing some associated covariance in the pollutants.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

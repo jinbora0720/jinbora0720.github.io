@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network | Bora Jin</title>
+    <link>/tag/network/</link>
+      <atom:link href="/tag/network/index.xml" rel="self" type="application/rss+xml" />
+    <description>Network</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:02 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Network</title>
+      <link>/tag/network/</link>
+    </image>
+    
+    <item>
+      <title>Joint Species Distribution Modeling with Ecological Networks</title>
+      <link>/project/hmsc/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:02 -0500</pubDate>
+      <guid>/project/hmsc/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Incorporate known interactions among species to increase interpretability of a joint species distribution model.&lt;/li&gt;
+&lt;li&gt;Separate dependence in co-occurrences of multiple species into two parts: one part attributable to shared latent factors such as habitat conditions and the other attributable to between-group interactions encoded in an undirected graph.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prediction of Insect-Plant Interaction Networks in an Arctic Community</title>
+      <link>/project/network/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:01 -0500</pubDate>
+      <guid>/project/network/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Predict a bipartite interaction network between insect species and plant species.&lt;/li&gt;
+&lt;li&gt;The resulting network allows seasonal variability and permits degree correction for nodes using the conditional logistic regression in the framework of dynamic network modeling.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

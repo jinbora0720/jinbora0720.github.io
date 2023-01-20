@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Bora Jin</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:06 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Bag of DAGs: Inferring Directional Dependence in Spatiotemporal Processes</title>
+      <link>/project/bags/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:06 -0500</pubDate>
+      <guid>/project/bags/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;R package &lt;a href=&#34;https://github.com/jinbora0720/bags&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bags&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/media/BAGs/example.html&#34;&gt;Simple example demonstration&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Propose a class of nonstationary processes that characterize varying directional associations in space and time for point-referenced data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Place a prior over possible directional edges within sparse directed acyclic graphs (DAGs), accounting for uncertainty in directional correlation patterns across a domain.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The resulting Bag of DAGs processes (BAGs) lead to interpretable nonstationarity and scalability for large data due to sparsity of DAGs in the bag.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analyze spatiotemporal variability of fine particulate matter (PM2.5) in California, US, in which a directed edge represents a prevailing wind direction causing some associated covariance in the pollutants.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spatial Predictions on Physically Constrained Domains: Applications to Arctic Sea Salinity Data</title>
+      <link>/project/boragp/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:05 -0500</pubDate>
+      <guid>/project/boragp/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;R package &lt;a href=&#34;https://github.com/jinbora0720/boraGP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;boraGP&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Motivated by applications in point-referenced geostatistics that have measurements collected and meaningful only within a constrained domain.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Develop the Barrier Overlap-Removal Acyclic directed graph GP (BORA-GP), a scalable GP method that incorporates the constrained domain via sparsity-inducing DAGs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enable characterization of dependence in constrained domains by removing an edge in a DAG if a linear path between two points overlaps physical barriers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Analyze sea surface salinity in the Arctic Ocean.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Matrix Completion for Hypothesis Testing</title>
+      <link>/project/bmc/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:04 -0500</pubDate>
+      <guid>/project/bmc/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Adapt Bayesian heteroscedastic nonparametric regression to a multiple hypothesis testing framework.&lt;/li&gt;
+&lt;li&gt;Impose a generalized latent factor model to form a non-exchangeable prior for testing.&lt;/li&gt;
+&lt;li&gt;Develop a matrix completion method for a latent matrix.&lt;/li&gt;
+&lt;li&gt;Tackle sparsity of the ToxCast data using hierarchical framework.&lt;/li&gt;
+&lt;li&gt;Enable prediction for non-tested chemical’s activity.&lt;/li&gt;
+&lt;li&gt;Broaden the definition of activity including heteroscedasticity.&lt;/li&gt;
+&lt;li&gt;To appear in &lt;em&gt;Journal of the Royal Statistical Science: Series C&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Effects of PFAS on North Carolina Thyroid Cancer Clusters</title>
+      <link>/project/nc-cancer/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:03 -0500</pubDate>
+      <guid>/project/nc-cancer/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Identify thyroid cancer clusters in North Carolina.&lt;/li&gt;
+&lt;li&gt;Reveal spatial, causal, and socioeconomic relationships between the cancer clusters and PFAS in drinking water.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Joint Species Distribution Modeling with Ecological Networks</title>
+      <link>/project/hmsc/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:02 -0500</pubDate>
+      <guid>/project/hmsc/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Incorporate known interactions among species to increase interpretability of a joint species distribution model.&lt;/li&gt;
+&lt;li&gt;Separate dependence in co-occurrences of multiple species into two parts: one part attributable to shared latent factors such as habitat conditions and the other attributable to between-group interactions encoded in an undirected graph.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prediction of Insect-Plant Interaction Networks in an Arctic Community</title>
+      <link>/project/network/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:01 -0500</pubDate>
+      <guid>/project/network/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Predict a bipartite interaction network between insect species and plant species.&lt;/li&gt;
+&lt;li&gt;The resulting network allows seasonal variability and permits degree correction for nodes using the conditional logistic regression in the framework of dynamic network modeling.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

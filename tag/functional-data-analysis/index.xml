@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functional data analysis | Bora Jin</title>
+    <link>/tag/functional-data-analysis/</link>
+      <atom:link href="/tag/functional-data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Functional data analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:04 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Functional data analysis</title>
+      <link>/tag/functional-data-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Bayesian Matrix Completion for Hypothesis Testing</title>
+      <link>/project/bmc/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:04 -0500</pubDate>
+      <guid>/project/bmc/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Adapt Bayesian heteroscedastic nonparametric regression to a multiple hypothesis testing framework.&lt;/li&gt;
+&lt;li&gt;Impose a generalized latent factor model to form a non-exchangeable prior for testing.&lt;/li&gt;
+&lt;li&gt;Develop a matrix completion method for a latent matrix.&lt;/li&gt;
+&lt;li&gt;Tackle sparsity of the ToxCast data using hierarchical framework.&lt;/li&gt;
+&lt;li&gt;Enable prediction for non-tested chemical’s activity.&lt;/li&gt;
+&lt;li&gt;Broaden the definition of activity including heteroscedasticity.&lt;/li&gt;
+&lt;li&gt;To appear in &lt;em&gt;Journal of the Royal Statistical Science: Series C&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

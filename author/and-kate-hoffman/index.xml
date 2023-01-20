@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>and Kate Hoffman | Bora Jin</title>
+    <link>/author/and-kate-hoffman/</link>
+      <atom:link href="/author/and-kate-hoffman/index.xml" rel="self" type="application/rss+xml" />
+    <description>and Kate Hoffman</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:03 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>and Kate Hoffman</title>
+      <link>/author/and-kate-hoffman/</link>
+    </image>
+    
+    <item>
+      <title>Effects of PFAS on North Carolina Thyroid Cancer Clusters</title>
+      <link>/project/nc-cancer/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:03 -0500</pubDate>
+      <guid>/project/nc-cancer/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Identify thyroid cancer clusters in North Carolina.&lt;/li&gt;
+&lt;li&gt;Reveal spatial, causal, and socioeconomic relationships between the cancer clusters and PFAS in drinking water.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
