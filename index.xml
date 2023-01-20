@@ -44,9 +44,6 @@
       <guid>/project/boragp/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;R package &lt;a href=&#34;https://github.com/jinbora0720/boraGP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;boraGP&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;Motivated by applications in point-referenced geostatistics that have measurements collected and meaningful only within a constrained domain.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
