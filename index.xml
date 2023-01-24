@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Bora Jin</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:06 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:07 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Bora Jin</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Bag of DAGs: Inferring Directional Dependence in Spatiotemporal Processes</title>
       <link>/project/bags/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:06 -0500</pubDate>
+      <pubDate>Fri, 20 Jan 2023 12:55:07 -0500</pubDate>
       <guid>/project/bags/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
@@ -40,7 +40,7 @@
     <item>
       <title>Spatial Predictions on Physically Constrained Domains: Applications to Arctic Sea Salinity Data</title>
       <link>/project/boragp/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:05 -0500</pubDate>
+      <pubDate>Fri, 20 Jan 2023 12:55:06 -0500</pubDate>
       <guid>/project/boragp/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
@@ -62,7 +62,7 @@
     <item>
       <title>Bayesian Matrix Completion for Hypothesis Testing</title>
       <link>/project/bmc/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:04 -0500</pubDate>
+      <pubDate>Fri, 20 Jan 2023 12:55:05 -0500</pubDate>
       <guid>/project/bmc/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Adapt Bayesian heteroscedastic nonparametric regression to a multiple hypothesis testing framework.&lt;/li&gt;
@@ -72,6 +72,22 @@
 &lt;li&gt;Enable prediction for non-tested chemical’s activity.&lt;/li&gt;
 &lt;li&gt;Broaden the definition of activity including heteroscedasticity.&lt;/li&gt;
 &lt;li&gt;To appear in &lt;em&gt;Journal of the Royal Statistical Science: Series C&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nearly Orthogonal Processes to Overcome Spatial Confounding</title>
+      <link>/project/spatial-confounding/</link>
+      <pubDate>Fri, 20 Jan 2023 12:55:04 -0500</pubDate>
+      <guid>/project/spatial-confounding/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Tackle spatial confounding between covariates and spatial random effects in regression models for point-referenced data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Propose nearly orthogonal processes to alleviate spatial confounding and overcome known issues of restricted spatial regression models.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

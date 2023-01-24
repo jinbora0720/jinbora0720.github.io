@@ -5,7 +5,7 @@
     <link>/tag/functional-data-analysis/</link>
       <atom:link href="/tag/functional-data-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Functional data analysis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:04 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:05 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Functional data analysis</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Bayesian Matrix Completion for Hypothesis Testing</title>
       <link>/project/bmc/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:04 -0500</pubDate>
+      <pubDate>Fri, 20 Jan 2023 12:55:05 -0500</pubDate>
       <guid>/project/bmc/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Adapt Bayesian heteroscedastic nonparametric regression to a multiple hypothesis testing framework.&lt;/li&gt;
