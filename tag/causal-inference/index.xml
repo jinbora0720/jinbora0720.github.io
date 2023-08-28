@@ -13,16 +13,16 @@
     </image>
     
     <item>
-      <title>Nearly Orthogonal Processes to Overcome Spatial Confounding</title>
+      <title>A Unified Bayesian Approach to Overcome Spatial Confounding</title>
       <link>/project/spatial-confounding/</link>
       <pubDate>Fri, 20 Jan 2023 12:55:04 -0500</pubDate>
       <guid>/project/spatial-confounding/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Tackle spatial confounding between covariates and spatial random effects in regression models for point-referenced data.&lt;/p&gt;
+&lt;p&gt;Alleviate spatial confounding between covariates and spatial random effects in models for point-referenced data.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Propose nearly orthogonal processes to alleviate spatial confounding and overcome known issues of restricted spatial regression models.&lt;/p&gt;
+&lt;p&gt;Propose a Bayesian approach whose primary objective is accurate estimation of the fixed effects in terms of bias and coverage, retaining all spatial signals in the data.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
