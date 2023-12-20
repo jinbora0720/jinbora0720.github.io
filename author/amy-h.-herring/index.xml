@@ -5,7 +5,7 @@
     <link>/author/amy-h.-herring/</link>
       <atom:link href="/author/amy-h.-herring/index.xml" rel="self" type="application/rss+xml" />
     <description>Amy H. Herring</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:06 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 12:55:30 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Amy H. Herring</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Spatial Predictions on Physically Constrained Domains: Applications to Arctic Sea Salinity Data</title>
       <link>/project/boragp/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:06 -0500</pubDate>
+      <pubDate>Tue, 19 Dec 2023 12:55:30 -0500</pubDate>
       <guid>/project/boragp/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
@@ -29,6 +29,9 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Analyze sea surface salinity in the Arctic Ocean.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To appear in &lt;em&gt;Annals of Applied Statistics&lt;/em&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -46,19 +49,7 @@
 &lt;li&gt;Tackle sparsity of the ToxCast data using hierarchical framework.&lt;/li&gt;
 &lt;li&gt;Enable prediction for non-tested chemical’s activity.&lt;/li&gt;
 &lt;li&gt;Broaden the definition of activity including heteroscedasticity.&lt;/li&gt;
-&lt;li&gt;To appear in &lt;em&gt;Journal of the Royal Statistical Science: Series C&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Effects of PFAS on North Carolina Thyroid Cancer Clusters</title>
-      <link>/project/nc-cancer/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:03 -0500</pubDate>
-      <guid>/project/nc-cancer/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Identify thyroid cancer clusters in North Carolina.&lt;/li&gt;
-&lt;li&gt;Reveal spatial, causal, and socioeconomic relationships between the cancer clusters and PFAS in drinking water.&lt;/li&gt;
+&lt;li&gt;Published in &lt;em&gt;Journal of the Royal Statistical Science: Series C&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

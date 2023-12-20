@@ -5,7 +5,7 @@
     <link>/author/and-david-dunson/</link>
       <atom:link href="/author/and-david-dunson/index.xml" rel="self" type="application/rss+xml" />
     <description>and David Dunson</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:07 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 12:55:45 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>and David Dunson</title>
@@ -13,9 +13,21 @@
     </image>
     
     <item>
+      <title>Prediction of Insect-Plant Interaction Networks in an Arctic Community</title>
+      <link>/project/network/</link>
+      <pubDate>Tue, 19 Dec 2023 12:55:45 -0500</pubDate>
+      <guid>/project/network/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Predict a bipartite interaction network between insect species and plant species.&lt;/li&gt;
+&lt;li&gt;The resulting network allows seasonal variability and permits degree correction for nodes using the conditional logistic regression in the framework of dynamic network modeling.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Bag of DAGs: Inferring Directional Dependence in Spatiotemporal Processes</title>
       <link>/project/bags/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:07 -0500</pubDate>
+      <pubDate>Tue, 19 Dec 2023 12:55:40 -0500</pubDate>
       <guid>/project/bags/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
@@ -40,7 +52,7 @@
     <item>
       <title>Spatial Predictions on Physically Constrained Domains: Applications to Arctic Sea Salinity Data</title>
       <link>/project/boragp/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:06 -0500</pubDate>
+      <pubDate>Tue, 19 Dec 2023 12:55:30 -0500</pubDate>
       <guid>/project/boragp/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
@@ -55,18 +67,9 @@
 &lt;li&gt;
 &lt;p&gt;Analyze sea surface salinity in the Arctic Ocean.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Prediction of Insect-Plant Interaction Networks in an Arctic Community</title>
-      <link>/project/network/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:01 -0500</pubDate>
-      <guid>/project/network/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Predict a bipartite interaction network between insect species and plant species.&lt;/li&gt;
-&lt;li&gt;The resulting network allows seasonal variability and permits degree correction for nodes using the conditional logistic regression in the framework of dynamic network modeling.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To appear in &lt;em&gt;Annals of Applied Statistics&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bora Jin and Abhirup Datta | Bora Jin</title>
+    <link>/author/bora-jin-and-abhirup-datta/</link>
+      <atom:link href="/author/bora-jin-and-abhirup-datta/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bora Jin and Abhirup Datta</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 12:55:59 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Bora Jin and Abhirup Datta</title>
+      <link>/author/bora-jin-and-abhirup-datta/</link>
+    </image>
+    
+    <item>
+      <title>Bayesian Spanning Tree-based Multivariate Spatial Model</title>
+      <link>/project/mtv-spatial/</link>
+      <pubDate>Tue, 19 Dec 2023 12:55:59 -0500</pubDate>
+      <guid>/project/mtv-spatial/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Aim to develop a method for highly multivariate (large p) and huge (large n) spatial data, which infers relationships among variables through a inter-variable graph.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Learn a backbone of the inter-variable graph defined as a minimum spanning tree of the true graph, using a Bayesian spanning tree-based approach.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

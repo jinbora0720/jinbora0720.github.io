@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Bora Jin</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:07 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 12:55:59 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Bora Jin</title>
@@ -13,9 +13,53 @@
     </image>
     
     <item>
+      <title>Bayesian Spanning Tree-based Multivariate Spatial Model</title>
+      <link>/project/mtv-spatial/</link>
+      <pubDate>Tue, 19 Dec 2023 12:55:59 -0500</pubDate>
+      <guid>/project/mtv-spatial/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Aim to develop a method for highly multivariate (large p) and huge (large n) spatial data, which infers relationships among variables through a inter-variable graph.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Learn a backbone of the inter-variable graph defined as a minimum spanning tree of the true graph, using a Bayesian spanning tree-based approach.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Unified Bayesian Approach to Overcome Spatial Confounding</title>
+      <link>/project/spatial-confounding/</link>
+      <pubDate>Tue, 19 Dec 2023 12:55:50 -0500</pubDate>
+      <guid>/project/spatial-confounding/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Alleviate spatial confounding between covariates and spatial random effects in models for point-referenced data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Propose a Bayesian approach whose primary objective is accurate estimation of the fixed effects in terms of bias and coverage, retaining all spatial signals in the data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prediction of Insect-Plant Interaction Networks in an Arctic Community</title>
+      <link>/project/network/</link>
+      <pubDate>Tue, 19 Dec 2023 12:55:45 -0500</pubDate>
+      <guid>/project/network/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Predict a bipartite interaction network between insect species and plant species.&lt;/li&gt;
+&lt;li&gt;The resulting network allows seasonal variability and permits degree correction for nodes using the conditional logistic regression in the framework of dynamic network modeling.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Bag of DAGs: Inferring Directional Dependence in Spatiotemporal Processes</title>
       <link>/project/bags/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:07 -0500</pubDate>
+      <pubDate>Tue, 19 Dec 2023 12:55:40 -0500</pubDate>
       <guid>/project/bags/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
@@ -40,7 +84,7 @@
     <item>
       <title>Spatial Predictions on Physically Constrained Domains: Applications to Arctic Sea Salinity Data</title>
       <link>/project/boragp/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:06 -0500</pubDate>
+      <pubDate>Tue, 19 Dec 2023 12:55:30 -0500</pubDate>
       <guid>/project/boragp/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
@@ -54,6 +98,9 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Analyze sea surface salinity in the Arctic Ocean.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To appear in &lt;em&gt;Annals of Applied Statistics&lt;/em&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -71,59 +118,7 @@
 &lt;li&gt;Tackle sparsity of the ToxCast data using hierarchical framework.&lt;/li&gt;
 &lt;li&gt;Enable prediction for non-tested chemical’s activity.&lt;/li&gt;
 &lt;li&gt;Broaden the definition of activity including heteroscedasticity.&lt;/li&gt;
-&lt;li&gt;To appear in &lt;em&gt;Journal of the Royal Statistical Science: Series C&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Unified Bayesian Approach to Overcome Spatial Confounding</title>
-      <link>/project/spatial-confounding/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:04 -0500</pubDate>
-      <guid>/project/spatial-confounding/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Alleviate spatial confounding between covariates and spatial random effects in models for point-referenced data.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Propose a Bayesian approach whose primary objective is accurate estimation of the fixed effects in terms of bias and coverage, retaining all spatial signals in the data.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Effects of PFAS on North Carolina Thyroid Cancer Clusters</title>
-      <link>/project/nc-cancer/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:03 -0500</pubDate>
-      <guid>/project/nc-cancer/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Identify thyroid cancer clusters in North Carolina.&lt;/li&gt;
-&lt;li&gt;Reveal spatial, causal, and socioeconomic relationships between the cancer clusters and PFAS in drinking water.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Joint Species Distribution Modeling with Ecological Networks</title>
-      <link>/project/hmsc/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:02 -0500</pubDate>
-      <guid>/project/hmsc/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Incorporate known interactions among species to increase interpretability of a joint species distribution model.&lt;/li&gt;
-&lt;li&gt;Separate dependence in co-occurrences of multiple species into two parts: one part attributable to shared latent factors such as habitat conditions and the other attributable to between-group interactions encoded in an undirected graph.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Prediction of Insect-Plant Interaction Networks in an Arctic Community</title>
-      <link>/project/network/</link>
-      <pubDate>Fri, 20 Jan 2023 12:55:01 -0500</pubDate>
-      <guid>/project/network/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Predict a bipartite interaction network between insect species and plant species.&lt;/li&gt;
-&lt;li&gt;The resulting network allows seasonal variability and permits degree correction for nodes using the conditional logistic regression in the framework of dynamic network modeling.&lt;/li&gt;
+&lt;li&gt;Published in &lt;em&gt;Journal of the Royal Statistical Science: Series C&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

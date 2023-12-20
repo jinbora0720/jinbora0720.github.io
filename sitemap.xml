@@ -3,72 +3,117 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/author/and-david-dunson/</loc>
-    <lastmod>2023-01-20T12:55:07-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/</loc>
-    <lastmod>2023-01-20T12:55:07-05:00</lastmod>
+    <lastmod>2023-12-19T12:55:59-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/bags/</loc>
-    <lastmod>2023-01-20T12:55:07-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/bora-jin/</loc>
-    <lastmod>2023-01-20T12:55:07-05:00</lastmod>
+    <loc>/project/mtv-spatial/</loc>
+    <lastmod>2023-12-19T12:55:59-05:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2023-01-20T12:55:07-05:00</lastmod>
+    <lastmod>2023-12-19T12:55:59-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/michele-peruzzi/</loc>
-    <lastmod>2023-01-20T12:55:07-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/nonstationarity/</loc>
-    <lastmod>2023-01-20T12:55:07-05:00</lastmod>
+    <loc>/author/bora-jin-and-abhirup-datta/</loc>
+    <lastmod>2023-12-19T12:55:59-05:00</lastmod>
   </url>
   
   <url>
     <loc>/project/</loc>
-    <lastmod>2023-01-20T12:55:07-05:00</lastmod>
+    <lastmod>2023-12-19T12:55:59-05:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/spatial-statistics/</loc>
-    <lastmod>2023-01-20T12:55:07-05:00</lastmod>
+    <lastmod>2023-12-19T12:55:59-05:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2023-01-20T12:55:07-05:00</lastmod>
+    <lastmod>2023-12-19T12:55:59-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/amy-h.-herring/</loc>
-    <lastmod>2023-01-20T12:55:06-05:00</lastmod>
+    <loc>/project/spatial-confounding/</loc>
+    <lastmod>2023-12-19T12:55:50-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/boragp/</loc>
-    <lastmod>2023-01-20T12:55:06-05:00</lastmod>
+    <loc>/author/bora-jin/</loc>
+    <lastmod>2023-12-19T12:55:50-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/bmc/</loc>
-    <lastmod>2023-01-20T12:55:05-05:00</lastmod>
+    <loc>/tag/causal-inference/</loc>
+    <lastmod>2023-12-19T12:55:50-05:00</lastmod>
   </url>
   
   <url>
     <loc>/author/david-dunson/</loc>
+    <lastmod>2023-12-19T12:55:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/georgia-papadogeorgou/</loc>
+    <lastmod>2023-12-19T12:55:50-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/and-david-dunson/</loc>
+    <lastmod>2023-12-19T12:55:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/jennifer-kampe/</loc>
+    <lastmod>2023-12-19T12:55:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/latent-factor-modeling/</loc>
+    <lastmod>2023-12-19T12:55:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/network/</loc>
+    <lastmod>2023-12-19T12:55:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/network/</loc>
+    <lastmod>2023-12-19T12:55:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/bags/</loc>
+    <lastmod>2023-12-19T12:55:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/michele-peruzzi/</loc>
+    <lastmod>2023-12-19T12:55:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/nonstationarity/</loc>
+    <lastmod>2023-12-19T12:55:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/amy-h.-herring/</loc>
+    <lastmod>2023-12-19T12:55:30-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/boragp/</loc>
+    <lastmod>2023-12-19T12:55:30-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/bmc/</loc>
     <lastmod>2023-01-20T12:55:05-05:00</lastmod>
   </url>
   
@@ -88,73 +133,8 @@
   </url>
   
   <url>
-    <loc>/tag/latent-factor-modeling/</loc>
-    <lastmod>2023-01-20T12:55:05-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/stephanie-m.-engel/</loc>
     <lastmod>2023-01-20T12:55:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/spatial-confounding/</loc>
-    <lastmod>2023-01-20T12:55:04-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/causal-inference/</loc>
-    <lastmod>2023-01-20T12:55:04-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/and-kate-hoffman/</loc>
-    <lastmod>2023-01-20T12:55:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/nc-cancer/</loc>
-    <lastmod>2023-01-20T12:55:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/james-matuk/</loc>
-    <lastmod>2023-01-20T12:55:03-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/and-otso-ovaskainen/</loc>
-    <lastmod>2023-01-20T12:55:02-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/gleb-tikhonov/</loc>
-    <lastmod>2023-01-20T12:55:02-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/hmsc/</loc>
-    <lastmod>2023-01-20T12:55:02-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/jennifer-kampe/</loc>
-    <lastmod>2023-01-20T12:55:02-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/hmsc/</loc>
-    <lastmod>2023-01-20T12:55:02-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/network/</loc>
-    <lastmod>2023-01-20T12:55:02-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/network/</loc>
-    <lastmod>2023-01-20T12:55:01-05:00</lastmod>
   </url>
   
   <url>
