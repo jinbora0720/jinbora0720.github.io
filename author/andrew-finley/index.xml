@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrew Finley | Bora Jin</title>
+    <link>/author/andrew-finley/</link>
+      <atom:link href="/author/andrew-finley/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrew Finley</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Andrew Finley</title>
+      <link>/author/andrew-finley/</link>
+    </image>
+    
+    <item>
+      <title>Bayesian Spanning Tree-based Multivariate Spatial Model</title>
+      <link>/project/mtv-spatial/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/project/mtv-spatial/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Aim to develop an interpretable and computational feasible method for highly multivariate (large p) and huge (large n) spatial data by utilizing relationships among variables in an inter-variable graph.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Consider a minimum spanning tree as the backbone of the inter-variable graph.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Transform a multivariate process into multiple bivariate processes by exploiting variable-level conditional independence specified by the minimum spanning tree.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

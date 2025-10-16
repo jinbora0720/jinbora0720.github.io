@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abhirup Datta | Bora Jin</title>
+    <link>/author/abhirup-datta/</link>
+      <atom:link href="/author/abhirup-datta/index.xml" rel="self" type="application/rss+xml" />
+    <description>Abhirup Datta</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Abhirup Datta</title>
+      <link>/author/abhirup-datta/</link>
+    </image>
+    
+    <item>
+      <title>Bayesian Spanning Tree-based Multivariate Spatial Model</title>
+      <link>/project/mtv-spatial/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/project/mtv-spatial/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Aim to develop an interpretable and computational feasible method for highly multivariate (large p) and huge (large n) spatial data by utilizing relationships among variables in an inter-variable graph.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Consider a minimum spanning tree as the backbone of the inter-variable graph.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Transform a multivariate process into multiple bivariate processes by exploiting variable-level conditional independence specified by the minimum spanning tree.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Community Air Monitoring Meets Geometric Non-negative Matrix Factorization: Source Attributions in Curtis Bay</title>
+      <link>/project/geomnmf-application/</link>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/project/geomnmf-application/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Identify major sources for particular matters, black carbon, and gases in Curtis Bay, Baltimore.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Apply a geometric source apportionment approach yielding a population-level estimand with consistency guarantee.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Filling the Meteorological Desert: Calibrated Low-cost Sensors Map Neighborhood Heat in Baltimore</title>
+      <link>/project/calibration-heat/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/project/calibration-heat/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Develop a coherent pipeline from low-cost sensor calibration to spatial prediction at unsampled locations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Correct biases in low-cost sensors using meteorological covariates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Generate high-resolution urban heat maps for Baltimore.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Identification in Source Apportionment Using Geometry</title>
+      <link>/project/geomnmf-theory/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/project/geomnmf-theory/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Aim to quantify the attribution of observed concentrations of multiple air pollutants to specific sources under a non-negative matrix factorization (NMF) framework.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Introduce the population-level estimand for the source attribution percentage matrix which is scale-invariant and identifiable even when NMF factors are not.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

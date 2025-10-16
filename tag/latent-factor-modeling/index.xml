@@ -5,24 +5,12 @@
     <link>/tag/latent-factor-modeling/</link>
       <atom:link href="/tag/latent-factor-modeling/index.xml" rel="self" type="application/rss+xml" />
     <description>Latent factor modeling</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Dec 2023 12:55:45 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 20 Jan 2023 12:55:05 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Latent factor modeling</title>
       <link>/tag/latent-factor-modeling/</link>
     </image>
-    
-    <item>
-      <title>Prediction of Insect-Plant Interaction Networks in an Arctic Community</title>
-      <link>/project/network/</link>
-      <pubDate>Tue, 19 Dec 2023 12:55:45 -0500</pubDate>
-      <guid>/project/network/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Predict a bipartite interaction network between insect species and plant species.&lt;/li&gt;
-&lt;li&gt;The resulting network allows seasonal variability and permits degree correction for nodes using the conditional logistic regression in the framework of dynamic network modeling.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>Bayesian Matrix Completion for Hypothesis Testing</title>
