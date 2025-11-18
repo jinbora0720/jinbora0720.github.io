@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gerard Lemson | Bora Jin</title>
+    <link>/author/gerard-lemson/</link>
+      <atom:link href="/author/gerard-lemson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Gerard Lemson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Gerard Lemson</title>
+      <link>/author/gerard-lemson/</link>
+    </image>
+    
+    <item>
+      <title>Baltimore Air Quality Dashboard</title>
+      <link>/project/baltimoreaq-dashboard/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/project/baltimoreaq-dashboard/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;As a primary developer, co-lead a Johns Hopkins Data Science and AI Institute engineering team to
+build the Baltimore AQ dashboard.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integrate multiple low-cost sensor networks, calibrate them against one regulatory air monitor using a GP based
+Bayesian spatial model with quantified uncertainty.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Serve high-resolution maps and summary visualizations, delivering the first spatially resolved air quality checker for
+Baltimore.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now transitioning from historical display to near-real-time operation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

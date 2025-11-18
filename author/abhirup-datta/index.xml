@@ -5,12 +5,31 @@
     <link>/author/abhirup-datta/</link>
       <atom:link href="/author/abhirup-datta/index.xml" rel="self" type="application/rss+xml" />
     <description>Abhirup Datta</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Abhirup Datta</title>
       <link>/author/abhirup-datta/</link>
     </image>
+    
+    <item>
+      <title>Filling the Meteorological Desert: Calibrated Low-cost Sensors Map Neighborhood Heat in Baltimore</title>
+      <link>/project/calibration-heat/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/project/calibration-heat/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Develop a coherent pipeline from low-cost sensor calibration to spatial prediction at unsampled locations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Correct biases in low-cost sensors using meteorological covariates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Generate high-resolution urban heat maps for Baltimore.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Bayesian Spanning Tree-based Multivariate Spatial Model</title>
@@ -32,35 +51,41 @@
     </item>
     
     <item>
-      <title>Community Air Monitoring Meets Geometric Non-negative Matrix Factorization: Source Attributions in Curtis Bay</title>
+      <title>Use of multi-pollutant air sensor data and geometric non-negative matrix factorization for source apportionment of air pollution burden in Curtis Bay, Baltimore, USA</title>
       <link>/project/geomnmf-application/</link>
       <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
       <guid>/project/geomnmf-application/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Identify major sources for particular matters, black carbon, and gases in Curtis Bay, Baltimore.&lt;/p&gt;
+&lt;p&gt;Identify major sources (traffic and coal terminal activities) for particular matters, black carbon, and gases in Curtis Bay, Baltimore.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Apply a geometric source apportionment approach yielding a population-level estimand with consistency guarantee.&lt;/p&gt;
+&lt;p&gt;Apply a geometric source apportionment approach to provide scalable and reliable evidence to inform mitigation strategies for a longstanding community-raised air quality concern.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Filling the Meteorological Desert: Calibrated Low-cost Sensors Map Neighborhood Heat in Baltimore</title>
-      <link>/project/calibration-heat/</link>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>/project/calibration-heat/</guid>
+      <title>Baltimore Air Quality Dashboard</title>
+      <link>/project/baltimoreaq-dashboard/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>/project/baltimoreaq-dashboard/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Develop a coherent pipeline from low-cost sensor calibration to spatial prediction at unsampled locations.&lt;/p&gt;
+&lt;p&gt;As a primary developer, co-lead a Johns Hopkins Data Science and AI Institute engineering team to
+build the Baltimore AQ dashboard.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Correct biases in low-cost sensors using meteorological covariates.&lt;/p&gt;
+&lt;p&gt;Integrate multiple low-cost sensor networks, calibrate them against one regulatory air monitor using a GP based
+Bayesian spatial model with quantified uncertainty.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Generate high-resolution urban heat maps for Baltimore.&lt;/p&gt;
+&lt;p&gt;Serve high-resolution maps and summary visualizations, delivering the first spatially resolved air quality checker for
+Baltimore.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now transitioning from historical display to near-real-time operation.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>

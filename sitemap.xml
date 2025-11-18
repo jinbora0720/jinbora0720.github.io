@@ -4,16 +4,86 @@
   
   <url>
     <loc>/author/abhirup-datta/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/andrew-finley/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+    <loc>/author/ali-eyni/</loc>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/bora-jin/</loc>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/calibration/</loc>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/darryn-waugh/</loc>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/calibration-heat/</loc>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/low-cost-sensors/</loc>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2025-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/spatial-confounding/</loc>
+    <lastmod>2025-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/causal-inference/</loc>
+    <lastmod>2025-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/david-dunson/</loc>
+    <lastmod>2025-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/georgia-papadogeorgou/</loc>
+    <lastmod>2025-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/spatial-statistics/</loc>
+    <lastmod>2025-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/andrew-finley/</loc>
     <lastmod>2025-10-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,47 +93,17 @@
   </url>
   
   <url>
-    <loc>/author/bora-jin/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/spatial-statistics/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/bonita-salmeron/</loc>
+    <loc>/author/bonita-d.-salmeron/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/christopher-heaney/</loc>
+    <loc>/author/christopher-d.-heaney/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/geomnmf-application/</loc>
-    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/david-hagan/</loc>
+    <loc>/author/david-h.-hagan/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,7 +113,7 @@
   </url>
   
   <url>
-    <loc>/author/gregory-sawtell/</loc>
+    <loc>/author/gregory-g.-sawtell/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,12 +123,22 @@
   </url>
   
   <url>
-    <loc>/author/laura-schmidt/</loc>
+    <loc>/author/laura-e.-schmidt/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/matthew-aubourg/</loc>
+    <loc>/author/lauren-n.-deans/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/matthew-a.-aubourg/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/nicholas-j.-spada/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,12 +148,7 @@
   </url>
   
   <url>
-    <loc>/author/russell-dickerson/</loc>
-    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/ryan-auvil/</loc>
+    <loc>/author/russell-r.-dickerson/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -113,52 +158,52 @@
   </url>
   
   <url>
-    <loc>/author/ali-eyni/</loc>
-    <lastmod>2025-10-03T00:00:00+00:00</lastmod>
+    <loc>/project/geomnmf-application/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/calibration/</loc>
-    <lastmod>2025-10-03T00:00:00+00:00</lastmod>
+    <loc>/project/baltimoreaq-dashboard/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/darryn-waugh/</loc>
-    <lastmod>2025-10-03T00:00:00+00:00</lastmod>
+    <loc>/author/gerard-lemson/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/calibration-heat/</loc>
-    <lastmod>2025-10-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/low-cost-sensors/</loc>
-    <lastmod>2025-10-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/spatial-confounding/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/causal-inference/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/david-dunson/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/georgia-papadogeorgou/</loc>
-    <lastmod>2025-10-02T00:00:00+00:00</lastmod>
+    <loc>/tag/heterogeneity/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/geomnmf-theory/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/kirsten-koehler/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/koji-sato/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/lei-hao/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/peter-decarlo/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/priyesh-agarwal/</loc>
     <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url>
   
