@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bora Jin - Research</title>
+  <link rel="stylesheet" href="style.css?v=20260605-publications">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-wrapper">
+    <a href="index.html" class="site-name">Bora Jin</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-menu').classList.toggle('open')">&#9776;</button>
+    <ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <!-- <li><a href="People.html">People</a></li> -->
+      <li><a href="Bio.html">Bio</a></li>
+      <li><a href="Research.html" class="active">Research</a></li>
+      <li><a href="Teaching.html">Teaching</a></li>
+      <li><a href="files/CV.pdf">CV</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+
+  <h1>Research</h1>
+
+  <h2>Research Interests</h2>
+  <ul>
+    <li>Spatial statistics</li>
+    <li>Bayesian methods</li>
+    <li>Hierarchical models</li>
+    <li>Graphical models</li>
+    <li>Latent factor models</li>
+    <li>Environmental health</li>
+  </ul>
+
+  <p>Much of the data in environmental health is spatial and multivariate, with complex dependence and missingness, which I often approach through the lenses of Bayesian methods and dependence learning. 
+    I build interpretable, scalable models; advance identifiable and robust inference for complex environmental systems; and translate results into open tools and actionable evidence for communities.</p>
+
+  <!-- <h2>Support</h2>
+  <p></p> -->
+
+  <h2 id="publications-heading">Publications, Preprints, and Work in progress</h2>
+  <p class="pub-footnote"><sup>&dagger;</sup> Equal contribution.</p>
+  <div class="publication-tools" aria-labelledby="publications-heading">
+    <div class="publication-switcher" role="tablist" aria-label="Publication organization">
+      <button type="button" class="publication-switch is-active" id="publication-tab-topic" role="tab" aria-selected="true" aria-controls="publications-by-topic" data-publication-view="topic">By topic</button>
+      <button type="button" class="publication-switch" id="publication-tab-year" role="tab" aria-selected="false" aria-controls="publications-by-year" data-publication-view="year">By year</button>
+    </div>
+    <p class="publication-help">Browse the same publication list by research area or chronologically.</p>
+  </div>
+
+  <div class="publication-view is-active" id="publications-by-year" role="tabpanel" aria-labelledby="publication-tab-year" data-publication-panel="year">
+  <ul class="pub-list pub-list-with-year-tags">
+    <li data-topic="graph-aware" data-year="2026"><span class="pub-year-tag">2026</span> 
+      <strong>Jin, B.</strong>, Peruzzi, M., and Dunson, D., Bag of DAGs: Inferring directional dependence in spatiotemporal processes. 
+      <span class="venue">Bayesian Analysis</span>, 21(1): 401-422. 
+      <a href="https://doi.org/10.1214/24-BA1473">[Publisher]</a> 
+      <a href="https://github.com/jinbora0720/bags">[Package]</a>
+      <a href="https://github.com/jinbora0720/GBAGs">[Code]</a></li>
+    <li data-topic="graph-aware" data-year="2024"><span class="pub-year-tag">2024</span> 
+      <strong>Jin, B.</strong>, Herring, A.H., and Dunson, D., Spatial predictions on physically constrained domains: Applications to Arctic sea salinity data. 
+      <span class="venue">Annals of Applied Statistics</span>, 18(2): 1596-1617. 
+      <a href="https://doi.org/10.1214/23-AOAS1850">[Publisher]</a> 
+      <a href="https://github.com/jinbora0720/boraGP">[Package]</a>
+      <a href="https://github.com/jinbora0720/boraGP-sss">[Code]</a></li>
+    <li data-topic="graph-aware" data-year="In prep"><span class="pub-year-tag">In prep</span> 
+      <strong>Jin, B.</strong>, Finley, A.O., and Datta, A., Bayesian spanning tree-based multivariate spatial model.
+      <a href="files/STNNGPonly_JSM.pdf">[Slides]</a></li>
+    <li data-topic="environmental-mixtures" data-year="2023"><span class="pub-year-tag">2023</span> 
+      <strong>Jin, B.</strong>, Dunson, D., Rager, J.E., Reif, D., Engel, S.M., and Herring, A.H., Bayesian matrix completion for hypothesis testing.
+      <span class="venue">Journal of the Royal Statistical Science: Series C</span>, 72(2):254-270. 
+      <a href="https://doi.org/10.1093/jrsssc/qlac005">[Publisher]</a> 
+      <a href="https://github.com/jinbora0720/BMC">[Code]</a></li>
+    <li data-topic="environmental-mixtures" data-year="2025"><span class="pub-year-tag">2025</span> 
+      <strong>Jin, B.</strong>, and Datta, A., Identification and consistent estimation in source apportionment using geometry.
+      <a href="https://arxiv.org/abs/2510.03616">[arXiv]</a> 
+      <a href="https://github.com/jinbora0720/GeomNMF">[Code]</a></li>
+    <li data-topic="environmental-mixtures" data-year="In prep"><span class="pub-year-tag">In prep</span> 
+      <strong>Jin, B.</strong>, Hagan, D., and Datta, A., GeomNMF: Identifiable non-negative matrix factorization in Python for environmental source apportionment.</li>
+    <li data-topic="public-facing" data-year="2025"><span class="pub-year-tag">2025</span> 
+      <strong>Jin, B.</strong>, Agrawal, P., Sato, K., Lemson, G., Hao, L., DeCarlo, P., Koehler, K., and Datta, A., Baltimore Air Quality Dashboard.
+      <a href="https://web.idies.jhu.edu/airquality/dashboard/realtime">[Dashboard]</a></li> 
+    <li data-topic="public-facing" data-year="2025"><span class="pub-year-tag">2025</span> 
+      <strong>Jin, B.</strong>, Salmerón, B.D., McClosky, D., Hagan, D., Dickerson, R.R., Spada, N.J., Deanes, L.N., Aubourg, M.A., Ramprasad, T., Schmidt, L.E., Sawtell, G.G., Heaney, C.D., and Datta, A., 
+      Source apportionment of air pollution burden using geometric non-negative matrix factorization and high-throughput multi-pollutant air sensor data in Curtis Bay, Baltimore, USA.
+      <a href="https://arxiv.org/abs/2511.11833">[arXiv]</a> 
+      <a href="https://github.com/jinbora0720/GeomNMF-CurtisBay">[Code]</a></li>
+    <li data-topic="public-facing" data-year="In prep"><span class="pub-year-tag">In prep</span> 
+      <strong>Jin, B.</strong>, Eyni, A., Waugh D., and Datta, A., Filling the meteorological desert: Calibrated low-cost sensors map neighborhood heat in Baltimore.</li>  
+    <li data-topic="public-facing" data-year="In prep"><span class="pub-year-tag">In prep</span> 
+      <strong>Jin, B.</strong><sup>&dagger;</sup>, Aubourg, M.A.<sup>&dagger;</sup>, Salmerón, B.D., Hagan, D., Dickerson, R.R., Spada, N.J., Ramprasad, T., Livi, K., Chen, J., Schmidt, L.E., Sanchez-Gonzalez, C., Sawtell, G.G., Datta, A., and Heaney, C.D., 
+      Practical multi-methods approach to characterize coal dust and air pollution burden in communities bordering coal export terminals.</li>      
+  </ul>
+
+  </div>
+
+  <div class="publication-view" id="publications-by-topic" role="tabpanel" aria-labelledby="publication-tab-topic" data-publication-panel="topic" hidden></div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">&copy; Bora Jin</div>
+</footer>
+
+<script>
+  (function () {
+    var topicDefinitions = [
+      ["graph-aware", "Graph-aware spatiotemporal modeling at scale"],
+      ["environmental-mixtures", "Identifiable and robust inference for environmental mixtures"],
+      ["public-facing", "Community-engaging platforms for translating research into action"],
+    ];
+
+    var byYear = document.getElementById("publications-by-year");
+    var byTopic = document.getElementById("publications-by-topic");
+    var switches = Array.prototype.slice.call(document.querySelectorAll("[data-publication-view]"));
+
+    if (!byYear || !byTopic || switches.length === 0) {
+      return;
+    }
+
+    var topicNames = topicDefinitions.reduce(function (names, topic) {
+      names[topic[0]] = topic[1];
+      return names;
+    }, {});
+
+    var groups = topicDefinitions.reduce(function (memo, topic) {
+      memo[topic[0]] = [];
+      return memo;
+    }, {});
+    groups.other = [];
+    topicNames.other = "Other";
+
+    var currentYear = "";
+    Array.prototype.slice.call(byYear.children).forEach(function (child) {
+      if (child.tagName === "H3") {
+        currentYear = child.textContent.trim();
+        return;
+      }
+
+      if (!child.classList.contains("pub-list")) {
+        return;
+      }
+
+      Array.prototype.slice.call(child.querySelectorAll("li")).forEach(function (item) {
+        var topic = item.getAttribute("data-topic") || "other";
+        if (!groups[topic]) {
+          groups[topic] = [];
+        }
+        groups[topic].push({
+          item: item,
+          year: item.getAttribute("data-year") || currentYear
+        });
+      });
+    });
+
+    function buildTopicView() {
+      topicDefinitions.concat([["other", topicNames.other]]).forEach(function (topic) {
+        var items = (groups[topic[0]] || []).slice().sort(function (a, b) {
+          var na = parseInt(a.year, 10);
+          var nb = parseInt(b.year, 10);
+          if (isNaN(na) && isNaN(nb)) return 0;   // both non-numeric: keep order
+          if (isNaN(na)) return -1;               // "In prep" floats to top
+          if (isNaN(nb)) return 1;
+          return nb - na;                          // newer year first
+        });
+        if (items.length === 0) {
+          return;
+        }
+
+        var section = document.createElement("section");
+        section.className = "publication-topic";
+
+        var heading = document.createElement("h3");
+        heading.textContent = topic[1];
+        section.appendChild(heading);
+
+        var list = document.createElement("ul");
+        list.className = "pub-list";
+
+        items.forEach(function (entry) {
+          var clone = entry.item.cloneNode(true);
+          clone.removeAttribute("data-topic");
+          clone.removeAttribute("data-year");
+
+          var existingYearTag = clone.querySelector(".pub-year-tag");
+          if (existingYearTag) {
+            existingYearTag.parentNode.removeChild(existingYearTag);
+            if (clone.firstChild && clone.firstChild.nodeType === 3) {
+              clone.firstChild.nodeValue = clone.firstChild.nodeValue.replace(/^\s+/, "");
+            }
+          }
+
+          var year = document.createElement("span");
+          year.className = "pub-year-tag";
+          year.textContent = entry.year;
+          clone.insertBefore(document.createTextNode(" "), clone.firstChild);
+          clone.insertBefore(year, clone.firstChild);
+
+          list.appendChild(clone);
+        });
+
+        section.appendChild(list);
+        byTopic.appendChild(section);
+      });
+    }
+
+    function showView(view) {
+      var panels = document.querySelectorAll("[data-publication-panel]");
+      Array.prototype.slice.call(panels).forEach(function (panel) {
+        var isActive = panel.getAttribute("data-publication-panel") === view;
+        panel.hidden = !isActive;
+        panel.classList.toggle("is-active", isActive);
+      });
+
+      switches.forEach(function (button) {
+        var isActive = button.getAttribute("data-publication-view") === view;
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-selected", isActive ? "true" : "false");
+      });
+    }
+
+    // Sort the year list reverse-chronologically (newest first).
+    // Non-numeric years like "In prep" float to the top.
+    var yearList = byYear.querySelector(".pub-list");
+    if (yearList) {
+      Array.prototype.slice.call(yearList.querySelectorAll("li"))
+        .sort(function (a, b) {
+          var na = parseInt(a.getAttribute("data-year"), 10);
+          var nb = parseInt(b.getAttribute("data-year"), 10);
+          if (isNaN(na) && isNaN(nb)) return 0;   // both non-numeric: keep order
+          if (isNaN(na)) return -1;               // a is "In prep": before b
+          if (isNaN(nb)) return 1;                // b is "In prep": before a
+          return nb - na;                          // newer year first
+        })
+        .forEach(function (li) { yearList.appendChild(li); });
+    }
+
+    buildTopicView();
+    showView("topic");
+
+    switches.forEach(function (button) {
+      button.addEventListener("click", function () {
+        showView(button.getAttribute("data-publication-view"));
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>
