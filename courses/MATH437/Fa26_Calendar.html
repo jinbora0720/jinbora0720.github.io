@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multivariate Analysis · Fall 2026 · Course Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --mines-blue:#21314D;   /* PMS 533 — dominant */
+    --blaster:#09396C;      /* PMS 534 — deep accent */
+    --light-blue:#92A2BD;   /* secondary blue */
+    --red:#D2492A;          /* Colorado Red — accent / stroke only */
+    --ink:#1b2431;
+    --paper:#ffffff;
+    --mist:#f5f7fa;
+    --mist-2:#eef2f7;
+    --line:#dde3ec;
+    --silver:#81848A;
+    --shadow:0 1px 2px rgba(33,49,77,.06), 0 8px 28px rgba(33,49,77,.06);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--mist);color:var(--ink);
+    font-family:"Source Sans 3",system-ui,Arial,sans-serif;font-size:16px;line-height:1.5}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px 72px}
+
+  /* ---------- Masthead ---------- */
+  .masthead{background:var(--mines-blue);color:#fff;box-shadow:var(--shadow)}
+  .masthead-inner{max-width:1040px;margin:0 auto;padding:34px 20px 30px;
+    display:flex;gap:28px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+  .eyebrow{font-family:"Montserrat",sans-serif;font-weight:600;letter-spacing:.16em;
+    text-transform:uppercase;font-size:.72rem;color:var(--light-blue);margin:0 0 8px}
+  .title{font-family:"Montserrat",sans-serif;font-weight:800;
+    font-size:clamp(1.9rem,4.4vw,2.9rem);line-height:1.02;letter-spacing:-.01em;margin:0}
+  .subtitle{margin:12px 0 0;color:#d7deea}
+  .masthead a{color:#a9c8ec;text-decoration:underline;text-underline-offset:2px}
+  .masthead a:hover{color:#fff}
+  .meta-strip{margin-top:18px;display:flex;gap:24px;flex-wrap:wrap;
+    font-family:"Montserrat",sans-serif;font-weight:500;font-size:.82rem;letter-spacing:.02em}
+  .meta-strip span{color:#c3cdde}
+  .meta-strip b{color:#fff;font-weight:600}
+
+  .sigma{flex:0 0 auto}
+  .sigma svg{display:block}
+  .sigma-cap{text-align:center;margin-top:8px;font-family:"Montserrat",sans-serif;
+    font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--light-blue)}
+
+  /* ---------- Legend ---------- */
+  .legend{display:flex;gap:8px 20px;flex-wrap:wrap;align-items:center;
+    margin:26px 2px 10px;font-size:.86rem;color:#42506a}
+  .legend .k{display:inline-flex;align-items:center;gap:8px;font-weight:600}
+  .chip{display:inline-block;font-family:"Montserrat",sans-serif;font-weight:600;font-size:.68rem;
+    letter-spacing:.04em;padding:3px 9px;border-radius:999px;line-height:1.4;text-transform:uppercase;white-space:nowrap}
+  .chip.due{color:#8f3115;background:#fbeae3;border:1px solid #f0c3b2}
+  .chip.exam{color:#fff;background:var(--red)}
+   .chip.milestone{color:#0a6ea8;background:#daf0fc;border:1px solid #79c6ed}
+  .chip.deadline{color:#4b5566;background:#eef1f6;border:1px solid #d6dce6}
+  .dot{width:12px;height:12px;border-radius:3px;display:inline-block}
+  .dot.hol{background:repeating-linear-gradient(45deg,#c9d1de,#c9d1de 3px,#eef2f7 3px,#eef2f7 6px)}
+
+  /* ---------- Week blocks ---------- */
+  .week{background:var(--paper);border:1px solid var(--line);border-radius:14px;
+    box-shadow:var(--shadow);margin-top:14px;overflow:hidden}
+  .week-head{display:flex;align-items:baseline;gap:12px;padding:12px 18px;
+    border-bottom:1px solid var(--line);background:var(--mist-2)}
+  .week-num{font-family:"Montserrat",sans-serif;font-weight:700;font-size:.74rem;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--mines-blue)}
+  .week-span{font-size:.82rem;color:var(--silver)}
+
+  .row{display:grid;grid-template-columns:96px 40px 1fr;gap:0 16px;
+    padding:14px 18px;border-top:1px solid #eef1f6;align-items:start}
+  .row:first-of-type{border-top:none}
+
+  .date{font-family:"Montserrat",sans-serif;font-weight:600}
+  .date .day{display:block;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
+  .date .dnum{font-size:1.02rem;color:var(--mines-blue);letter-spacing:0}
+  .snum{font-family:"Montserrat",sans-serif;font-weight:700;font-size:.8rem;color:#fff;
+    background:var(--mines-blue);border-radius:7px;width:34px;height:26px;
+    display:flex;align-items:center;justify-content:center;margin-top:1px}
+  .body .topic{font-weight:600;color:var(--ink)}
+  .body .reading{font-size:.9rem;color:#5a677d;margin-top:2px}
+  .body .reading em{font-style:italic;color:#42506a}
+  .badges{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
+
+  /* special rows — left inset accent encodes the row kind */
+  .row.exam{background:#fdf3ef;box-shadow:inset 3px 0 0 var(--red)}
+  .row.exam .snum{background:var(--red)}
+  .row.holiday{background:#f3f5f9;box-shadow:inset 3px 0 0 var(--silver)}
+  .row.holiday .body .topic{color:#5a677d;font-weight:600}
+  .row.holiday .date .day{color:var(--silver)}
+  .row.holiday .snum{background:transparent;border:1px dashed #b8c1d2}
+  .row.holiday .snum::after{content:"—";color:#b8c1d2}
+  .row.admin{background:#f7f9fc}
+  .row.admin .body .topic{color:#42506a;font-weight:600}
+  .row.admin .date .day{color:var(--silver)}
+  .row.admin .snum{background:transparent}
+  .row.milestone{box-shadow:inset 3px 0 0 #2e9bd6}
+  .row.milestone .snum{background:#2e9bd6}
+
+  /* ---------- Notes ---------- */
+  .notes{margin-top:30px;background:var(--paper);border:1px solid var(--line);
+    border-left:4px solid var(--red);border-radius:12px;padding:18px 22px;box-shadow:var(--shadow)}
+  .notes h2{font-family:"Montserrat",sans-serif;font-size:.78rem;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--mines-blue);margin:0 0 10px}
+  .notes ul{margin:0;padding-left:18px}
+  .notes li{margin:6px 0;font-size:.92rem;color:#42506a}
+  .notes code{background:var(--mist-2);border:1px solid var(--line);border-radius:4px;
+    padding:1px 5px;font-size:.85em}
+  .footer{margin-top:26px;text-align:center;font-size:.8rem;color:var(--silver)}
+  .footer b{color:var(--mines-blue);font-family:"Montserrat",sans-serif;font-weight:600}
+
+  a{color:var(--blaster)}
+  a:focus-visible,button:focus-visible{outline:3px solid var(--light-blue);outline-offset:2px}
+
+  @media (max-width:560px){
+    .row{grid-template-columns:70px 30px 1fr;gap:0 12px;padding:13px 14px}
+    .snum{width:28px;height:24px;font-size:.72rem}
+    .week-head{padding:11px 14px}
+    .masthead-inner{padding:28px 18px 24px}
+  }
+  @media print{
+    body{background:#fff;font-size:11.5px}
+    .masthead,.week,.notes{box-shadow:none}
+    .masthead{border-radius:0}
+    .week{break-inside:avoid;border-color:#c9d1de}
+    .wrap{padding-bottom:0}
+    @page{margin:14mm}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div>
+      <p class="eyebrow">Colorado School of Mines · Applied Math &amp; Statistics</p>
+      <h1 class="title">MATH 437/537: Multivariate Analysis</h1>
+      <p class="subtitle">For course material and further information, see <a href="https://elearning.mines.edu">Canvas</a> page.<br>The schedule is subject to change.</p>
+      <div class="meta-strip">
+        <span>Term&nbsp; <b>Fall 2026</b></span>
+        <span>Meets&nbsp; <b>Tue / Thu</b></span>
+        <span>2 pm - 3:15 pm</span>
+        <span>Text&nbsp; <b>Johnson &amp; Wichern, 6th ed.</b></span>
+        <span>Classroom&nbsp; <b>McNeil 313</b></span>
+        <span>Instructor&nbsp; <b>Dr. Bora Jin</b></span>
+      </div>
+    </div>
+    <!-- <div class="sigma" aria-hidden="true">
+      <svg width="128" height="128" viewBox="0 0 128 128" role="img">
+        <g id="cov"></g>
+      </svg>
+      <div class="sigma-cap">&#931;</div>
+    </div>
+  </div> -->
+</header>
+
+<div class="wrap">
+
+  <div class="legend" id="legend">
+    <span class="k"><span class="chip due">HW/Quiz</span></span>
+    <span class="k"><span class="chip exam">Exam</span></span>
+    <span class="k"><span class="chip milestone">Project</span></span>
+    <span class="k"><span class="chip deadline">Registrar</span></span>
+    <span class="k"><span class="dot hol"></span> no class</span>
+  </div>
+
+  <main id="calendar"></main>
+
+  <!-- <section class="notes">
+    <h2>Notes</h2>
+    <ul>
+      <li><b>To edit:</b> change the <code>SCHEDULE</code> array in the page source. Set a row's <code>type</code> to <code>"holiday"</code> or <code>"admin"</code>, or add a snow day, and the week grouping and session numbers renumber themselves.</li>
+    </ul>
+  </section> -->
+
+  <p class="footer"><b>Multivariate Analysis</b> · Fall 2026</p>
+</div>
+
+<script>
+/* ============================================================
+   EDIT HERE. One row per calendar entry, in chronological order.
+   type:  "class" (default) | "exam" | "holiday" | "admin" | "milestone"
+   noSession: true  -> not a class meeting, gets no session number
+   due:   array of {kind, text}; kind = "due" | "exam" | "milestone" | "deadline"
+   Session numbers count only real class meetings (holiday/admin/noSession skipped).
+   ============================================================ */
+const SCHEDULE = [
+  {wk:1, date:"Aug 25", day:"Tue", topic:"Welcome! Course overview", due:[{kind:"HW/Quiz",text:"Quiz due"}]},
+  {wk:1, date:"Aug 27", day:"Thu", topic:"Summary statistics and distance", reading:"J&W Ch. 1.3, 1.5 · mean vector, covariance & correlation matrices, statistical distance"},
+
+  {wk:2, date:"Sep 1", day:"Tue", topic:"Matrix algebra I", reading:"J&W Ch. 2.2 · vectors, rank, inverse, quadratic forms"},
+  {wk:2, date:"Sep 2", day:"Wed", type:"admin", due:[{kind:"deadline", text:"Add / Drop deadline"}]},
+  {wk:2, date:"Sep 3", day:"Thu", topic:"Matrix algebra II - spectral tools", reading:"J&W Ch. 2.3-2.4 · eigenstructure, spectral decomposition, positive definiteness, SVD"},
+  {wk:2, date:"Sep 4", day:"Fri", type:"admin", due:[{kind:"due",text:"HW1 due"}]},
+
+  {wk:3, date:"Sep 8", day:"Tue", topic:"Random vectors and their moments", reading:"J&W Ch. 2.5-2.6 · mean vectors, covariance of linear combinations, partitioned matrices"},
+  {wk:3, date:"Sep 10", day:"Thu", topic:"Random samples", reading:"J&W Ch. 3.1-3.4 · density, geometry, constant-density contours"},
+  {wk:3, date:"Sep 11", day:"Fri", type:"admin", due:[{kind:"due",text:"HW2 due"}]},
+
+  {wk:4, date:"Sep 15", day:"Tue", topic:"The multivariate normal distribution", reading:"J&W Ch. 4.2 · constant-density ellipsoids, marginals of subvectors"},
+  {wk:4, date:"Sep 17", day:"Thu", topic:"Lab: The multivariate normal distribution", reading:"J&W Ch. 4.2 · conditional distributions, independence of subvectors, distributions of linear combinations"},
+  {wk:4, date:"Sep 18", day:"Fri", type:"admin", due:[{kind:"due",text:"HW3 due"}]},
+
+  {wk:5, date:"Sep 22", day:"Tue", topic:"Sampling from the MVN", reading:"J&W Ch. 4.3-4.4 · MLEs of mu and Sigma, sampling distributions, the Wishart"},
+  {wk:5, date:"Sep 24", day:"Thu", topic:"Comparing two mean vectors", reading:"J&W Ch. 6.3 · assessing normality, transformations, outliers"},
+
+  {wk:6, date:"Sep 29", day:"Tue", topic:"Midterm review", due:[{kind:"due",text:"HW4 due"}]},
+  {wk:6, date:"Oct 1", day:"Thu", type:"exam", topic:"Midterm exam (in class)", reading:"Covers Ch. 1-4, 6.3"},
+
+  {wk:7, date:"Oct 6", day:"Tue", topic:"ANOVA Review"},
+  {wk:7, date:"Oct 8", day:"Thu", topic:"MANOVA I", reading:"J&W Ch. 6.4 · Wilks' lambda and companion test statistics"},
+
+  {wk:8, date:"Oct 13", day:"Tue", type:"holiday", topic:"Fall break - no class"},
+  {wk:8, date:"Oct 15", day:"Thu", topic:"MANOVA II", reading:"J&W Ch. 6.4"},
+
+  {wk:9, date:"Oct 20", day:"Tue", topic:"Lab: MANOVA", reading:"J&W Ch. 6.4-6.5"},
+  {wk:9, date:"Oct 22", day:"Thu", topic:"Principal Component Analysis", reading:"J&W Ch. 8.1-8.2 · population components, geometry"},
+  {wk:9, date:"Oct 23", day:"Fri", type:"admin", due:[{kind:"due",text:"HW5 due"}]},
+
+  {wk:10, date:"Oct 27", day:"Tue", topic:"PCA in practice", reading:"J&W Ch. 8.3-8.5 · sample PCs, how many components, biplots"},
+  {wk:10, date:"Oct 29", day:"Thu", topic:"PCA examples", reading:"J&W Ch. 8.3-8.5 · sample PCs, how many components, biplots"},
+
+  {wk:11, date:"Nov 3", day:"Tue", topic:"Lab: PCA I", reading:"J&W Ch. 8.3-8.5 · sample PCs, how many components, biplots"},
+  {wk:11, date:"Nov 5", day:"Thu", topic:"PCA extensions", reading:"J&W Ch. 9.2"},
+
+  {wk:12, date:"Nov 10", day:"Tue", topic:"Lab: PCA II", reading:"J&W Ch. 9.2"},
+  {wk:12, date:"Nov 12", day:"Thu", type:"milestone", topic:"Final projection introduction + work day"},
+  {wk:12, date:"Nov 13", day:"Fri", type:"admin", due:[{kind:"deadline",text:"Withdraw deadline"}]},
+
+  {wk:13, date:"Nov 17", day:"Tue", topic:"Factor Analysis", reading:"J&W Ch. 9.1-9.3 · orthogonal factor model, estimation"},
+  {wk:13, date:"Nov 19", day:"Thu", topic:"Rotation, scores, and PCA vs. FA", reading:"J&W Ch. 9.4-9.5"},
+
+  {wk:14, date:"Nov 24", day:"Tue", topic:"Nonnegative matrix factorization & structured low-rank models"},
+  {wk:14, date:"Nov 26", day:"Thu", type:"holiday", topic:"Thanksgiving - no class", reading:"Thanksgiving break, Nov 25-27"},
+
+  // {wk:11, date:"Nov 3", day:"Tue", topic:"Factor Analysis", reading:"J&W Ch. 9.1-9.3 · orthogonal factor model, estimation"},
+  // {wk:11, date:"Nov 5", day:"Thu", topic:"Rotation, scores, and PCA vs. FA", reading:"J&W Ch. 9.4-9.5"},
+  //
+  // {wk:12, date:"Nov 10", day:"Tue", topic:"Canonical Correlation Analysis", reading:"J&W Ch. 10 · relating two sets of variables", due:[{kind:"due",text:"HW 4 due"}]},
+  // {wk:12, date:"Nov 12", day:"Thu", topic:"Discrimination & classification I", reading:"J&W Ch. 11.1-11.4 · two groups, Fisher's linear discriminant"},
+  // {wk:12, date:"Nov 13", day:"Fri", type:"admin", topic:"Withdrawal deadline", reading:"Last day to withdraw from a course", due:[{kind:"deadline",text:"Withdraw"}]},
+  //
+  // {wk:13, date:"Nov 17", day:"Tue", topic:"Classification II", reading:"J&W Ch. 11.5-11.8 · several groups, QDA, evaluating classifiers"},
+  // {wk:13, date:"Nov 19", day:"Thu", topic:"Clustering - hierarchical and k-means", reading:"J&W Ch. 12.1-12.5 · dissimilarity, linkage, k-means, model-based clustering", due:[{kind:"due",text:"HW 5 due"}]},
+  //
+  // {wk:14, date:"Nov 24", day:"Tue", topic:"Multidimensional scaling & correspondence analysis", reading:"J&W Ch. 12.6-12.7", due:[{kind:"milestone",text:"Project proposal due"}]},
+  // {wk:14, date:"Nov 26", day:"Thu", type:"holiday", topic:"Thanksgiving - no class", reading:"Thanksgiving break, Nov 25-27"},
+
+  {wk:15, date:"Dec 1", day:"Tue", topic:"Canonical Correlation Analysis", reading:"J&W Ch. 10 · relating two sets of variables"},
+  {wk:15, date:"Dec 3", day:"Thu", topic:"Clustering - hierarchical and k-means", reading:"J&W Ch. 12.1-12.5 · dissimilarity, linkage, k-means, model-based clustering"},
+
+  // {wk:15, date:"Dec 3", day:"Thu", topic:"High-dimensional analysis & multivariate regression", reading:"J&W Ch. 7 + notes · regularized covariance, sparsity, the general linear model", due:[{kind:"due",text:"HW 6 due"}]},
+
+  {wk:16, date:"Dec 8", day:"Tue", type:"milestone", topic:"Project presentations; course wrap-up"},
+  {wk:16, date:"Dec 9", day:"Wed", type:"admin", due:[{kind:"deadline",text:"Last day of classes"}]},
+  {wk:16, date:"Dec 10", day:"Thu", type:"holiday", topic:"Review day - no class"},
+
+  {wk:17, date:"Dec 14-15", day:"Mon-Tue", noSession:true, type:"exam", topic:"Take-home final exam", reading:"Distributed Dec 14, due Dec 15"},
+];
+
+const WEEK_META = {
+  1:{label:"Week 1", span:"Aug 24 - 28"}, 2:{label:"Week 2", span:"Aug 31 - Sep 4"},
+  3:{label:"Week 3", span:"Sep 7 - 11"}, 4:{label:"Week 4", span:"Sep 14 - 18"},
+  5:{label:"Week 5", span:"Sep 21 - 25"}, 6:{label:"Week 6", span:"Sep 28 - Oct 2"},
+  7:{label:"Week 7", span:"Oct 5 - 9"}, 8:{label:"Week 8", span:"Oct 12 - 16"},
+  9:{label:"Week 9", span:"Oct 19 - 23"}, 10:{label:"Week 10", span:"Oct 26 - 30"},
+  11:{label:"Week 11", span:"Nov 2 - 6"}, 12:{label:"Week 12", span:"Nov 9 - 13"},
+  13:{label:"Week 13", span:"Nov 16 - 20"}, 14:{label:"Week 14", span:"Nov 23 - 27"},
+  15:{label:"Week 15", span:"Nov 30 - Dec 4"}, 16:{label:"Week 16", span:"Dec 7 - 11"},
+  17:{label:"Finals Week", span:"Dec 14 - 18"}
+};
+
+/* ---- covariance-matrix motif: symmetric Sigma heatmap ---- */
+(function(){
+  const g=document.getElementById("cov"); if(!g) return;
+  const n=5, cell=24, gap=1.6;
+  const M=[
+    [1.00,.62,.28,.40,.15],
+    [.62,1.00,.55,.22,.33],
+    [.28,.55,1.00,.48,.19],
+    [.40,.22,.48,1.00,.60],
+    [.15,.33,.19,.60,1.00]
+  ];
+  const NS="http://www.w3.org/2000/svg";
+  const mix=(a,b,t)=>a.map((x,k)=>Math.round(x+(b[k]-x)*t));
+  for(let i=0;i<n;i++)for(let j=0;j<n;j++){
+    const c=mix([146,162,189],[33,49,77],M[i][j]);
+    const r=document.createElementNS(NS,"rect");
+    r.setAttribute("x", j*(cell+gap)+2); r.setAttribute("y", i*(cell+gap)+2);
+    r.setAttribute("width", cell); r.setAttribute("height", cell); r.setAttribute("rx", 3);
+    r.setAttribute("fill", `rgb(${c[0]},${c[1]},${c[2]})`);
+    g.appendChild(r);
+  }
+})();
+
+/* ---- render the calendar ---- */
+(function(){
+  const root=document.getElementById("calendar");
+  const SKIP=new Set(["holiday","admin"]);
+  let session=0, currentWk=null, weekEl=null;
+
+  SCHEDULE.forEach(item=>{
+    const type=item.type||"class";
+    if(item.wk!==currentWk){
+      currentWk=item.wk;
+      const meta=WEEK_META[item.wk]||{label:"Week "+item.wk, span:""};
+      weekEl=document.createElement("section"); weekEl.className="week";
+      const head=document.createElement("div"); head.className="week-head";
+      head.innerHTML=`<span class="week-num">${meta.label}</span><span class="week-span">${meta.span}</span>`;
+      weekEl.appendChild(head); root.appendChild(weekEl);
+    }
+
+    const row=document.createElement("div");
+    row.className="row"+(type!=="class"?` ${type}`:"");
+
+    let snum;
+    if(SKIP.has(type)||item.noSession){ snum=`<div class="snum" aria-hidden="true"></div>`; }
+    else { session++; snum=`<div class="snum">${session}</div>`; }
+
+    const badges=(item.due||[]).map(b=>{
+      const cls=b.kind==="exam"?"exam":b.kind==="milestone"?"milestone":b.kind==="deadline"?"deadline":"due";
+      return `<span class="chip ${cls}">${b.text}</span>`;
+    }).join("");
+
+    row.innerHTML=`
+      <div class="date"><span class="day">${item.day}</span><span class="dnum">${item.date}</span></div>
+      ${snum}
+      <div class="body">
+        ${item.topic?`<div class="topic">${item.topic}</div>`:""}
+        ${item.reading?`<div class="reading">${item.reading}</div>`:""}
+        ${badges?`<div class="badges">${badges}</div>`:""}
+      </div>`;
+    weekEl.appendChild(row);
+  });
+})();
+</script>
+</body>
+</html>
